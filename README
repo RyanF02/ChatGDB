@@ -1,0 +1,7 @@
+This project aims to hasten the solving of Binary CTFs by creating an Automatic Exploitation Generation (AEG) tool called ‘ChatGDB’. This tool has various functionalities useful for solving simple buffer overflow Binary CTFs, notably it can quickly perform dynamic brute forcing, create a custom payload, build a simple shellcode payload, and print function addresses from executables.
+
+Testing files have been removed, but can be found online.
+
+Currently this tool assumes correct user input, input files being ELF executables, and the input files being 32bit programs. It also assumes there is no stack guard or randomization. In its current state, only simple buffer overflow problems can be solved. However, it can also be a proof of concept for future additions.
+
+The tool can be launched from the main folder using ‘python3 chatGDB.py’. The testing files used can be found in the subfolder ‘files’. There are also temporary ‘flag.txt’ files that are used by the testing files.
